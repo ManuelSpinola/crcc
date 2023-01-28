@@ -31,16 +31,23 @@ devtools::install_github("ManuelSpinola/crcc")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use the package:
 
-```{r example}
-library(crcc)
+```{r example, message=FALSE, warning=FALSE}
 ## basic example code
+library(crcc)
+library(tidyverse)
+library(sf)
+library(stars)
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
+```{r}
+ggplot() +
+  geom_stars(data = cr_inm_cm4_8_ssp126_2021_2040[,,,1]) +
+  scale_fill_viridis_c(name = "Annual Mean Temperature", option = "C", na.value = "transparent", direction = -1) +
+  theme_minimal() +
+  coord_equal()
 ```
+
+
 

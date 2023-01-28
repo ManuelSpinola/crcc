@@ -21,23 +21,22 @@ devtools::install_github("ManuelSpinola/crcc")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use the package:
 
 ``` r
-library(crcc)
 ## basic example code
+library(crcc)
+library(tidyverse)
+library(sf)
+library(stars)
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+ggplot() +
+  geom_stars(data = cr_inm_cm4_8_ssp126_2021_2040[,,,1]) +
+  scale_fill_viridis_c(name = "Annual Mean Temperature", option = "C", na.value = "transparent", direction = -1) +
+  theme_minimal() +
+  coord_equal()
 ```
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
