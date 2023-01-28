@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of crcc is to ...
+The goal of crcc is to provides geospatial data of Costa Rica to do climate change analysis.
 
 ## Installation
 
