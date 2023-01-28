@@ -6,6 +6,8 @@
 \alias{crcc-package}
 \title{crcc: crcc: geospatial data of Costa Rica for climate change analysis}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Contains geospatial data of Costa Rica to do climate change analysis
 }
 \seealso{
