@@ -1,4 +1,5 @@
 ---
+title: "crcc: Geospatial data for climate change analysis in Costa Rica"
 output: github_document
 ---
 

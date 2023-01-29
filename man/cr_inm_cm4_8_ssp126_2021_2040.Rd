@@ -14,7 +14,7 @@
 \alias{cr_ukesm1_0_ll_ssp245_2021_2040}
 \alias{cr_ukesm1_0_ll_ssp370_2021_2040}
 \alias{cr_ukesm1_0_ll_ssp585_2021_2040}
-\title{Bioclimatic variables downscaled and calibrated CMIP6 climate data for projected future climates of continental Costa Rica (2021 - 2040)}
+\title{Bioclimatic variables of continental Costa Rica (2021 - 2040)}
 \format{
 A stars object (EPSG:4326)
 }
@@ -36,6 +36,8 @@ cr_ukesm1_0_ll_ssp370_2021_2040
 cr_ukesm1_0_ll_ssp585_2021_2040
 }
 \description{
+Bioclimatic variables downscaled and calibrated CMIP6 climate data for projected future climates of continental Costa Rica (2021 - 2040)
+
 Includes 3 GCMs (General Circulation Models), INM_CM4_8, MPI-ESM1-2-HR and UKESM1-0-LL, and four SSPs (Shared Socioeconomic Pathways), ssp126, ssp245, ssp370 and ssp585.
 
 Resolution 0.5 minutes of a degree (~1km).
