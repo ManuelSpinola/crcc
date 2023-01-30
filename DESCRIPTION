@@ -1,6 +1,6 @@
 Package: crcc
 Type: Package
-Title: crcc: geospatial data of Costa Rica for climate change analysis
+Title: crcc: Geospatial data of Costa Rica for climate change analysis
 Version: 0.1.0
 Author: Manuel Spínola
 Maintainer: Manuel Spínola <mspinola10@gmail.com>
