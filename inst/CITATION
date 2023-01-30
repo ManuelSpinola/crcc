@@ -2,13 +2,13 @@ citHeader("To cite crcc in publications use:")
 
 citEntry(
   entry    = "Manual",
-  title    = "crcc: Geospatial data of Costa Rica for climate change analysis",
+  title    = "crcc: Costa Rica climate change",
   author   = "Manuel Spínola",
   note     = "R package version 0.1.0",
   year     = "2023",
   url      = "https://github.com/ManuelSpinola/crcc",
   textVersion = paste("Manuel Spínola (2023).",
-                "crgeo: Geospatial data of Costa Rica for climate change analysis.",
+                "crgeo: Costa Rica climate change.",
                 "R package version 0.1.0.",
                 "Available at https://github.com/ManuelSpinola/crcc.")
 )
