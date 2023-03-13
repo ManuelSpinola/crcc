@@ -8,7 +8,7 @@ citEntry(
   year     = "2023",
   url      = "https://github.com/ManuelSpinola/crcc",
   textVersion = paste("Manuel Spínola (2023).",
-                "crgeo: Costa Rica climate change.",
+                "crcc: Costa Rica climate change.",
                 "R package version 0.1.0.",
                 "Available at https://github.com/ManuelSpinola/crcc.")
 )
