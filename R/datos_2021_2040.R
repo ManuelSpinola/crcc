@@ -37,7 +37,7 @@
 #' cr_ukesm1_0_ll_ssp370_2021_2040
 #' cr_ukesm1_0_ll_ssp585_2021_2040
 #'
-#' @format A stars object (EPSG:4326)
+#' @format An stars object (EPSG:4326)
 #'
 #' @source The data source is WorldClim version 2.1 \url{https://www.worldclim.org/}
 #'
