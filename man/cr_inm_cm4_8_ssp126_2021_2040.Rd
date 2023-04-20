@@ -16,7 +16,7 @@
 \alias{cr_ukesm1_0_ll_ssp585_2021_2040}
 \title{Bioclimatic variables of continental Costa Rica (2021 - 2040)}
 \format{
-A stars object (EPSG:4326)
+An stars object (EPSG:4326)
 }
 \source{
 The data source is WorldClim version 2.1 \url{https://www.worldclim.org/}

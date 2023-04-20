@@ -7,7 +7,7 @@ Authors@R:
            family = "Spínola",
            role = c("aut", "cre"),
            email = "mspinola10@gmail.com",
-           comment = c(ORCID = "0000-0002-7839-1908")
+           comment = c(ORCID = "0000-0002-7839-1908"))
 Maintainer: Manuel Spínola <mspinola10@gmail.com>
 Description: Contains geospatial data of Costa Rica to do climate change analysis
 License: MIT + file LICENSE
