@@ -26,19 +26,29 @@ devtools::install_github("ManuelSpinola/crcc")
 This is a basic example which shows you how to use the package:
 
 ``` r
-## basic example code
 library(crcc)
+library(crgeo)
 library(tidyverse)
 library(sf)
 library(stars)
 ```
 
 ``` r
+max_temp <- cr_future_worldclim(var = "tmax",
+  res = 2.5,
+  gcm = "ACCESS-CM2",
+  ssp = "ssp126",
+  interval = "2041-2060",
+  path = tempdir(),
+  return_stack = TRUE)
+```
+
+``` r
 ggplot() +
-  geom_stars(data = cr_inm_cm4_8_ssp126_2021_2040[,,,1]) +
-  scale_fill_viridis_c(name = "Annual Mean Temperature", option = "C", na.value = "transparent", direction = -1) +
+  geom_stars(data = max_temp) +
+  scale_fill_viridis_c(name = "Temperatura (°C)", na.value = "transparent", option = "C", direction = -1) +
   theme_minimal() +
   coord_equal()
 ```
 
-<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
