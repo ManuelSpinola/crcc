@@ -17,3 +17,7 @@ Depends:
     R (>= 2.10)
 RoxygenNote: 7.2.3
 URL: https://manuelspinola.github.io/crcc/
+Imports:
+    itsdm
+Suggests:
+    crgeo
