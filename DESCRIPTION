@@ -18,7 +18,7 @@ Depends:
 RoxygenNote: 7.2.3
 URL: https://manuelspinola.github.io/crcc/
 Imports:
-    itsdm
+    itsdm,
     geodata
 Suggests:
     crgeo
